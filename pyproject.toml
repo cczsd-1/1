@@ -138,7 +138,7 @@ classifiers = [
 
 [project.optional-dependencies]
 postgres = [
-    "psycopg2-binary==2.9.11",
+    "psycopg2-binary==2.9.12",
     "pgvector==0.4.2",
 ]
 mariadb = [
@@ -150,7 +150,7 @@ unstructured = [
 
 all = [
     "pymongo==4.16.0",
-    "psycopg2-binary==2.9.11",
+    "psycopg2-binary==2.9.12",
     "pgvector==0.4.2",
     "moto[s3]>=5.0.26",
     "gcp-storage-emulator>=2024.8.3",
